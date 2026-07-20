@@ -1,0 +1,23 @@
+.highlight-box {
+  background: #fef9e7;
+  border-left: 4px solid #f5c518;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+.status {
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.status.active {
+  background: #e6f7ec;
+  color: #1b8a4c;
+}
+
+.status.inactive {
+  background: #fdecea;
+  color: #c0392b;
+}
